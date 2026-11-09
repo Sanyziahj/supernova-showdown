@@ -147,7 +147,7 @@ html.srml #srml-menu,html.srml #srml-pad{margin:0;max-width:none}
 html.srml #srml-menu{position:fixed;left:max(8px,env(safe-area-inset-left,0px));top:max(6px,env(safe-area-inset-top,0px));width:var(--srml-side);flex-direction:column;gap:6px;z-index:60;align-items:center}
 html.srml #srml-menu .srml-b{flex:none;max-width:none;width:calc(100% - 24px)!important;height:46px!important;font-size:13px!important}
 html.srml #srml-pad{position:fixed;inset:0;pointer-events:none;z-index:4}
-html.srml #srml-dir,html.srml #srml-act{pointer-events:auto;position:fixed;bottom:max(8px,env(safe-area-inset-bottom,0px))}
+html.srml #srml-dir,html.srml #srml-act{pointer-events:auto;position:fixed;bottom:calc(max(8px,env(safe-area-inset-bottom,0px)) + 6px)}
 html.srml #srml-dir{left:max(8px,env(safe-area-inset-left,0px));width:var(--srml-side);justify-content:center;flex-wrap:wrap}
 html.srml #srml-dir .srml-b{width:60px!important;height:60px!important}
 html.srml #srml-dir.cross{justify-content:center;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:6px}
